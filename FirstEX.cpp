@@ -4,6 +4,7 @@
 int main (){
   int a;
   int b;
+  int c;
   int sum = 0;
     std::cout << "ЗАВДАННЯ 1: " << std::endl;
     std::cout << "Впишіть число яке буде A:";
@@ -11,10 +12,17 @@ int main (){
     std::cout << "Впишіть число яке буде B:";
     std::cin >> b;
     std::cout << "A:" << a << ", B:" << b << std::endl;
+      if (a > b){
+       c = a;
+       a = b;
+       b = c;
+      }
+    std::cout << "Після перевірки: A:" << a << ", B:" << b << std::endl;
 
 if (a % 2 !=0) a++;
   for (int i = a; i <= b; i += 2) { 
-  sum += i; }
+  sum += i; 
+}
   std::cout << "Сума парних чисел: " << sum << std::endl;
 
 std::cout << "ЗАВДАННЯ 2: " << std::endl;
@@ -44,10 +52,5 @@ std::cout << "ЗАВДАННЯ 4: " << std::endl;
   std::string str = std::to_string(number);
   std::cout << "Число як рядок: " << str << std::endl;
     return 0;
-    
-
-
-
-
 }
 
