@@ -26,3 +26,5 @@ Example for FirstExersize.cpp:
 ```
 g++ FirstExersize.cpp -o FirstExTest
 ./task1
+```
+P.S The .gitignore file hides unnecessary files from you, while README.md is this description you are reading :)
