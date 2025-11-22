@@ -6,6 +6,7 @@ I ADD SSH KEY YEEEEE
 ## This repository contains 5 exercises from my C++ coursework. Each exercise is in a separate .cpp file and is explained below.
 
 ###  Exercises
+![ThisIsFineGIF](https://github.com/user-attachments/assets/55a1ab4f-aa7d-4060-b9e5-603f3dd816ea)
 
 #### FirstExersize.cpp
 
