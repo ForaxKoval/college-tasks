@@ -1,34 +1,18 @@
 ![ThisIsFineGIF](https://github.com/user-attachments/assets/55a1ab4f-aa7d-4060-b9e5-603f3dd816ea)
-TA NU
-IT WORKS
-I ADD SSH KEY YEEEEE
+
 # C++ College Tasks
-## This repository contains 5 exercises from my C++ coursework. Each exercise is in a separate .cpp file and is explained below.
+## This repository contains all the tasks, assignments, and projects related to my college studies. All files are organized by task or project type to help with easy navigation.
 
-###  Exercises
+# Directory Structure:
+tasks_02.09.25 : Contains 5 tasks from the first homework
 
-#### FirstExersize.cpp
+tasks_10.11.25: Contains 3 cpp-files, 3 o-files and one finalprogram (homework on he topic of compilation)
 
-Given two numbers (either input by the user or defined in the code), calculate the sum of all even numbers in the range between them, inclusive.
+tasks_19.11.25: Contains 10 files with tasks
 
-#### SecondExersize.cpp
-
-Check whether a given number (user input or constant) is positive, negative, or zero, and display the result.
-
-#### ThirdExersize.cpp
-
-The program has a string defined as const char*. Output the length of this string to the console.
+tasks_HackerRank: Will contains 100 Hacker Rank tasks
 
 
-#### FifthExersize.cpp
+## This repository serves as a personal collection of my academic work for  and will be updated as I complete more tasks. 
 
-Find all “lucky” tickets from 000000 to 999999. A lucky ticket is one where the sum of the first three digits equals the sum of the last three digits.
-
-###  Compile & Run
-
-Example for FirstExersize.cpp:
-```
-g++ FirstExersize.cpp -o FirstExTest
-./task1
-```
 P.S The .gitignore file hides unnecessary files from you, while README.md is this description you are reading :)
