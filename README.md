@@ -4,7 +4,7 @@
 ## This repository contains all the tasks, assignments, and projects related to my college studies. All files are organized by task or project type to help with easy navigation.
 
 # Directory Structure:
-[tasks_02.09.25 : Contains 5 tasks from the first homework]
+[]tasks_02.09.25 : Contains 5 tasks from the first homework
 
 tasks_10.11.25: Contains 3 cpp-files, 3 o-files and one finalprogram (homework on he topic of compilation)
 
