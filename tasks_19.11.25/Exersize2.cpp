@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
     int main(){
         std::cout << "Insert your words: " << std::endl; 
         char * ourword;
