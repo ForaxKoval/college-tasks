@@ -2,12 +2,11 @@
 #include <string>
     int main(){
         std::cout << "Insert your words: " << std::endl; 
-        std::string text;
-        std::getline(std::cin, text);
-
+        char * ourword;
+        std::cin >> ourword;
         int countlength = 0;
-        for (char letter : text){
-            countlength++;
-        }
+            for (int i = 0; ourword[i] != '\0'; i++){
+                countlength++;
+            }
         std::cout << "string length:" << countlength << std::endl;
     }
