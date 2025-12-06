@@ -13,12 +13,40 @@
 
         std::cout << "width" <<  width << std::endl;
         std::cout << "height" << height << std::endl;
-        for (int i = 0; i < height; i++) {
-    
-             for (int k = 0; k < width; k++) {
+                                        // FIRST HALF
+
+        int FirstNumberOFspaces = height / 2;  // 5/2 = 2
+        int FirstNumberOFstars = 1;
+
+
+        for (int i = 0; i < height / 2 + 1; i++) { // zabudu sho ce - ce verhnya polovuna
+            for (int k = 0; k < FirstNumberOFspaces - i; k++) {
+                  std::cout << " ";
+            }
+            for (int f = 0; f < FirstNumberOFstars + 2 * i; f++) {
                   std::cout << "*";
-        }
+            }
         std::cout << std::endl; 
-    }
+        }
+
+                                        // SECCOND HALF
+
+        int SeccondNumberOFspaces = 1;  
+        int SeccondNumberOFstars = height - 2;       
+        while (SeccondNumberOFstars >= 1){
+            for (int k = 0; k < SeccondNumberOFspaces; k++) {
+                  std::cout << " ";
+            }
+            for (int k = 0; k < SeccondNumberOFstars; k++) {
+                  std::cout << "*";
+            }
+        std::cout << std::endl; 
+
+        SeccondNumberOFspaces++;
+        SeccondNumberOFstars -= 2;
+    }  
+    return 0; 
+        
+    
 
 }
