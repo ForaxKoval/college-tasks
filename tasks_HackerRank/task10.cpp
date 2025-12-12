@@ -7,6 +7,6 @@
         std::cout << "Instert length of seccond side:" << std::endl;
         std::cin >> b;
 
-        std::cout << "Area of the rectangle:" << a * b << std::endl;
+        std::cout << "Area of the rectangle: " << a * b << " cm^2" << std::endl;
 }
 
