@@ -1,14 +1,16 @@
 #include <iostream>
 	int main(){
-        // 15. Print even numbers from 1 to n.
+        // 18. Calculate factorial of a number
         int n;
-        std::cout << "Insert the number to which the numbers will be output:" << std::endl;
+        long int result = 1;
+        std::cout << "Insert the number to which the numbers will be factorial:" << std::endl;
         std::cin >> n;
         std::cout << "-----------------------------" << std::endl;
-        for (int i = 0; i <= n; i++)
+        for (int i = 1; i <= n; i++)
         {
-                std::cout << i << std::endl;
+                result = result * i;
         }
+        std::cout << "factorial " << n << " = " << result << std::endl; 
         
 
 }
