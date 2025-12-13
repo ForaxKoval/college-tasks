@@ -1,6 +1,6 @@
 #include <iostream>
 	int main(){
-        // 21.    Find the smallest digit of a number.
+        // 23.    Find the smallest digit of a number.
         int number;
         int minDigit = 9;
         int digit;

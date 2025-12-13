@@ -1,6 +1,6 @@
 #include <iostream>
 	int main(){
-        // 21.    Find the largest digit of a number.
+        // 22.    Find the largest digit of a number.
         int number;
         int maxDigit = 0;
         int digit;
