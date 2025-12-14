@@ -2,8 +2,7 @@
 	int main(){
         // 24.    Print a square pattern with stars.
         int height;
-        int minDigit = 9;
-        std::cout << "Insert the height of square " << std::endl;
+        std::cout << "Insert the height and width of square " << std::endl;
         std::cin >> height;
         std::cout << "-----------------------------" << std::endl;
         
