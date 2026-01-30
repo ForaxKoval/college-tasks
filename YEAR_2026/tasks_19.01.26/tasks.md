@@ -35,7 +35,6 @@ register — це модифікатор, який позначає змінну
 '''
     const int SIZE = 10;
     float numbers[SIZE];
-
     for (int i = 0; i < SIZE; i++) {
         numbers[i] = i * 1.1f;
     }
