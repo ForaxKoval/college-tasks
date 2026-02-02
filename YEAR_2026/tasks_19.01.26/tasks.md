@@ -141,7 +141,7 @@ else
 # Fifth exersize:
 **Дано:**
 
-```c
+```
 int *zPtr;      /* zPtr посилається на масив z */
 int *aPtr = NULL;
 void *sPtr = NULL;
