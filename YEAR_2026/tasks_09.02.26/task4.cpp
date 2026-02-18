@@ -8,7 +8,7 @@ struct Time{
 };
 int main (){
     Time time;
-    std::cout << "Enter hours:   ";
+    std::cout << "Enter hours:   "; 
     std::cin >> time.hours;
 
     std::cout << "Enter minutes:   ";
