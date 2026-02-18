@@ -1,17 +1,14 @@
 #include <iostream>
 #include <string>
 
-struct Product1{
+struct Product{
     std::string name;
     double price;
 };
-struct Product2{
-    std::string name;
-    double price;
-};
+
 int main (){
-    Product1 product1;
-    Product2 product2;
+    Product product1;
+    Product product2;
     
     std::cout << "Enter product 1 name:   ";
     getline(std::cin, product1.name);

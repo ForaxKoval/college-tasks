@@ -1,17 +1,14 @@
 #include <iostream>
 #include <cmath>
 
-struct Point1{
+struct Point{
     int x;
     int y;
 };
-struct Point2{
-    int x;
-    int y;
-};
+
 int main (){
-    Point1 point1;
-    Point2 point2;
+    Point point1;
+    Point point2;
     std::cout << "Enter point 1 x:   ";
     std::cin >> point1.x;
 

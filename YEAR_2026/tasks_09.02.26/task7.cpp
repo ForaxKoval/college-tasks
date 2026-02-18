@@ -1,18 +1,14 @@
 #include <iostream>
 
-struct Time1{
+struct Time{
     int hours;
     int minutes;
     int seconds;
 };
-struct Time2{
-    int hours;
-    int minutes;
-    int seconds;
-};
+
 int main (){
-    Time1 time1;
-    Time2 time2;
+    Time time1;
+    Time time2;
     std::cout << "Enter time 1 hours:   "; 
     std::cin >> time1.hours;
 
