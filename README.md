@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./On Fire GIF.gif" width="400">
+    <img src="./YEAR_2025/On Fire GIF.gif" width="400">
 </p>
 
 # 📚 Навчальні та практичні роботи
