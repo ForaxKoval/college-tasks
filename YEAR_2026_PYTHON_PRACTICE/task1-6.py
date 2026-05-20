@@ -14,14 +14,14 @@ def merge_lists(web_order: list, app_order: list) -> list:
         else: 
             result.append(app_order[numapp])
             numapp += 1
-
+ 
     while numweb < len(web_order):
         result.append(web_order[numweb])
-        numweb += 1
+        numweb += 1 
 
     while numapp < len(app_order):
         result.append(app_order[numapp])
-        numapp += 1
+        numapp += 1 
     return result
 
 web_order = [
@@ -29,7 +29,6 @@ web_order = [
     "10:30",
     "12:15"
 ]
-
 app_order = [
     "10:05",
     "10:40",
