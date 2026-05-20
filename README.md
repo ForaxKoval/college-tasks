@@ -1,4 +1,4 @@
-![fire](/home/forax/college-tasks/)
+<img src="/home/forax/college-tasks/" width="300">
 
 # 📚 Навчальні та практичні роботи
 
