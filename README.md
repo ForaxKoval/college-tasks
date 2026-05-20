@@ -1,6 +1,6 @@
-<img src="./On Fire GIF.gif" width="300">
-![Описание](https://github.com/ForaxKoval/college-tasks/blob/master/On%20Fire%20GIF.gif)
-
+<center>
+    <img src="./On Fire GIF.gif" width="400">
+</center>
 
 # 📚 Навчальні та практичні роботи
 
