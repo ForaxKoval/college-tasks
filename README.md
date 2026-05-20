@@ -26,3 +26,7 @@
 ## 🚀 Автор
 
 GitHub: ForaxKoval
+
+<p align="center">
+    <img src="./YEAR_2025/Happy Canadian GIF by The Weeknd.gif" width="400">
+</p>
