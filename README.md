@@ -1,4 +1,4 @@
-<img src="/home/forax/college-tasks/" width="300">
+<img src="./On Fire GIF.gif" width="300">
 ![Описание](https://github.com/ForaxKoval/college-tasks/blob/master/On%20Fire%20GIF.gif)
 
 
