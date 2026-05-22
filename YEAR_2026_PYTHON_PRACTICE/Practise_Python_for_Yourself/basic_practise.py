@@ -69,4 +69,17 @@ while i < 15:
     if i == 10:
         break # коли ми досягли умови ми можемо прописати break, і він закінчить цикл
 
+found = None # це також змінна типу bool, але якщо ми не хочемо в неї щось вносити ми можемо написати None
+for i in "Hello World":
+    if i == "l":
+        found = True
+        break       # Ми перериваємо цикл якщо вже знайшли букву
+    else:
+        found = False
+
+print(found)
+
+
+
+
 
