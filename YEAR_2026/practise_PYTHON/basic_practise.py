@@ -1,7 +1,6 @@
 print("Hello World")
 
-print("Number:", 7)
-print("Number: 7") # Однакове
+print("Number:", 7 + 13 * 10 / 3) # print("Number: 7") # Однакове
 
 print("Number:", 7, 15, 5, sep="/") #sep="" дозволяє нам міняти символ між виводами (без цього атрибута будуть просто пробіли)
 
