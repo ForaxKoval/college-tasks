@@ -48,3 +48,5 @@ else:
 data = input("Введіть число буквами: ")
 number = 5 if data == "five" else 0 # якщо користувач введе five то значення змінної буде 5, інакше - 0
 print(number)
+
+# ЦИКЛИ for / while:
