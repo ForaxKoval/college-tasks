@@ -25,13 +25,26 @@ print(number1 + number2) #якщо зробити так. то вивід буд
 number1 = int(input("Введіть перше число: "))
 number2 = int(input("Введіть друге число: "))
 print(number1 + number2) # оскільки ми уточнили що тип буде Int то компілятор додав два числа
-del number, number1, number2, word, digitnumber, bool
+del number1, number2
 
-# IF:
+# IF: ТАБУЛЯЦІЯ ЦЕ НАШЕ ВСЕ
 
 
 # if a = b:
 #   print("Yes")
-#   if a > b
+#   if a > b:
 #       print("a > b")
 
+# створимо змінну типу bool
+isHappy = False
+
+if isHappy == True:
+    print("user happy")
+#elif number == 5: 
+else:
+    print("user is not happy")
+
+# Ми можемо зробити так:
+data = input("Введіть число буквами: ")
+number = 5 if data == "five" else 0 # якщо користувач введе five то значення змінної буде 5, інакше - 0
+print(number)
