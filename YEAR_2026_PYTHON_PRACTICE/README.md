@@ -7,5 +7,5 @@
 GitHub: ForaxKoval
 
 <p align="center">
-    <img src="./YEAR_2025/This Is Fine GIF.gif" width="400">
+    <img src="YEAR_2025/This%20Is%20Fine%20GIF.gif" width="400" alt="This Is Fine">
 </p>
