@@ -5,3 +5,7 @@
 ## 🚀 Автор
 
 GitHub: ForaxKoval
+
+<p align="center">
+    <img src="./YEAR_2025/This Is Fine.gif" width="400">
+</p>
