@@ -25,3 +25,13 @@ print(number1 + number2) #якщо зробити так. то вивід буд
 number1 = int(input("Введіть перше число: "))
 number2 = int(input("Введіть друге число: "))
 print(number1 + number2) # оскільки ми уточнили що тип буде Int то компілятор додав два числа
+del number, number1, number2, word, digitnumber, bool
+
+# IF:
+
+
+# if a = b:
+#   print("Yes")
+#   if a > b
+#       print("a > b")
+
