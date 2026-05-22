@@ -62,4 +62,11 @@ for i in word:
         countOfLetters += 1
 print("Count: ", countOfLetters)
 
+i = 5
+while i < 15:
+    print(i)
+    i +=1
+    if i == 10:
+        break # коли ми досягли умови ми можемо прописати break, і він закінчить цикл
+
 
