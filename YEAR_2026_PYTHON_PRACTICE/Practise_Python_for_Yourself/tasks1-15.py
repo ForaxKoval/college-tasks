@@ -14,11 +14,11 @@ print("Вітаю, ", name, "!")
 # - суму
 # - різницю
 # - добуток
-number1  = input("Введіть число №1: ")
-number2  = input("Введіть число №2: ")
-print("Сума: ", a + b)
-print("Різниця: ", a - b)
-print("Добуток: ", a * b)
+number1  = int(input("Введіть число №1: "))
+number2  = int(input("Введіть число №2: "))
+print("Сума: ", number1 + number2)
+print("Різниця: ", number1 - number2)
+print("Добуток: ", number1 * number2)
 
 # 5. Перевірка віку:
 # якщо 18+ -> "Доступ дозволено"
@@ -29,15 +29,35 @@ if age >= 18:
 else:
     print("Доступ заборонено")
 
-
 # 6. Перевірка числа:
 # додатнє чи від'ємне
 
+num  = int(input("Введіть число: "))
+if num > 0:
+    print("Число > 0")
+elif num < 0:
+    print("Число < 0")
+else:
+    print("Число = 0")
+
 # 7. Через for вивести числа від 1 до 10
+for i in range (0, 10):
+    print(i)
+    i += 1
 
 # 8. Через while вивести числа від 10 до 1
+j = 10
+while j >= 1:
+    print(j)
+    j -= 1
 
 # 9. Порахувати кількість букв "a" у слові "banana"
+CountOfLetters = 0
+for i in "banana":
+    if i == a:
+        CountOfLetters +=1
+print("Count:", CountOfLetters)
+
 
 # 10. Створити список з 5 елементів:
 # - вивести весь список
