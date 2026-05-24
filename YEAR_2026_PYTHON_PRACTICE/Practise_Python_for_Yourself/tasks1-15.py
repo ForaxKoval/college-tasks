@@ -92,9 +92,12 @@ print(userlist)
 IsFounded = None
 foundlist = [1, 5, 7, 6, 9, 10, 14, 18]
 for i in foundlist:
-    if i == "7":
+    if i == 7:
         print("7 є у списку")
         break
     else:
-        print("7 немає  у списку")
+        print("7 не знайдено")
+
 # 15. Запитувати пароль, поки користувач не введе 1234
+while int(input("Введіть пароль: ")) != 1234:
+    print("Пароль не правильний. Введіть пароль ще раз: ")
