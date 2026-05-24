@@ -74,9 +74,27 @@ list.append(150)
 print(newlist)
 
 # 12. Через цикл вивести всі елементи списку, помножені на 2
+list3 = [5, 10, 4, 28, 90]
+for i in list3:
+    print(i * 2)
+    i += 1
 
 # 13. Дати користувачу ввести 5 елементів у список
+userlist = []
+numOfElements = int(input("Введіть кількість елементів у списку: "))
+for i in range(numOfElements):
+    string = input("Введіть елемент для додавання в список: ")
+    userlist.append(string)
+    i += 1
 
+print(userlist)
 # 14. Перевірити чи є число 7 у списку
-
+IsFounded = None
+foundlist = [1, 5, 7, 6, 9, 10, 14, 18]
+for i in foundlist:
+    if i == "7":
+        print("7 є у списку")
+        break
+    else:
+        print("7 немає  у списку")
 # 15. Запитувати пароль, поки користувач не введе 1234
