@@ -18,5 +18,5 @@
 GitHub: ForaxKoval
 
 <p align="center">
-    <img src="./YEAR_2025/Happy Canadian GIF by The Weeknd.gif" width="400">
+    <img src=".college-tasks/YEAR_2025/Happy Canadian GIF by The Weeknd.gif" width="400">
 </p>
