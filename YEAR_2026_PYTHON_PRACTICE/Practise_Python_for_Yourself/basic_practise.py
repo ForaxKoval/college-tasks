@@ -191,5 +191,30 @@ print(country.get('name'))
 # country.clear() - Очищає весь наш словник
 # country.pop('name') - Очищає тільки елемент за ключем
 # country.popitem() - Очищає тільки останній елемент у словнику
-print(country.keys())
-print(country.values())
+print(country.keys()) # Отримуємо тільки ключі
+print(country.values()) # Отримуємо тільки значення
+print(country.items()) # Отримуємо все, тільки ключ та значення об'єднані
+
+# Для щміни значення за кодом використовуємо:
+country["code"] = "Alalala" # Значення коду "code" змінилось на "Alalala". 'code': 'Alalala'
+print(country)
+
+# Словники добре використовуються при описі людиниб єхала:
+
+person = {
+    'user_1': {
+        'first_name': 'Max',
+        'last_name': 'Barabolya',
+        'age': 17,
+        'gender': 'Male',
+        'phone_num': '055-555-55-55',
+        'adress': 'Kyiv. Obolon',
+        'cars': {'private': 'Honda Civic', 'in_rent': 'Porsche 991 GT3RS'}
+    }
+}
+print(person['user_1']['cars']['in_rent']) # Вивід: Porsche 911 GT3RS
+# Словники прикольна штука, мені сподобалось :)
+
+
+
+
