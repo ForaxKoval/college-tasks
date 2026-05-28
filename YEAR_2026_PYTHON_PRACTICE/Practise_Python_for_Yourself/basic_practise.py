@@ -191,3 +191,5 @@ print(country.get('name'))
 # country.clear() - Очищає весь наш словник
 # country.pop('name') - Очищає тільки елемент за ключем
 # country.popitem() - Очищає тільки останній елемент у словнику
+print(country.keys())
+print(country.values())
