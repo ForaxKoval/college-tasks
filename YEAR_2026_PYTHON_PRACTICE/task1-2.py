@@ -17,7 +17,7 @@ def search_dictionary(dictionary: list, word: str) -> str:
 
 
 dictionary = [
-    ("Apple", "Фрукт"),
+    ("Apple", "Яблуко"),
     ("Book", "Книга"),
     ("Computer", "Електронний пристрій"),
     ("Mouse", "Комп'ютерна миша"),
