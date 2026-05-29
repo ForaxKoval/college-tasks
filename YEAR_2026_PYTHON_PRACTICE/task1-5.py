@@ -1,9 +1,11 @@
 import time
+# Рекурсивний підхід
 def climb_recursive(n: int) -> int:
     if n <= 2:
         return n
 
     return climb_recursive(n - 1) + climb_recursive(n - 2)
+# Ітеративний підхід
 def climb_iterative(n: int) -> int:
     if n <= 2:
         return n
