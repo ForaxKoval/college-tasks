@@ -254,6 +254,10 @@ file = open('YEAR_2026_PYTHON_PRACTICE/Practise_Python_for_Yourself/data/text.tx
     # w - write (видаляється з файлу вся минула інформація і пишеться нова, переписуємо файл)
     # a - append (додавання інформації, минуле не видаляється)
     # r - reading (читання)
+    # x - create (створення файлу)
+    # + - відкриття файлу як для читання так і для запису
+    # t - вказує, що треба представити файл як текстовий
+    # b - вказує, що треба представити файл як бінарний
 
 # file.write('Hello my first created file with Python\n')
 
