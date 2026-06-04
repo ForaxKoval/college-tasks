@@ -3,6 +3,7 @@
 int countEven(int arr[], int size)
 {
     int count = 0;
+
     for (int i = 0; i < size; i++)
     {
         if (arr[i] % 2 == 0)
@@ -10,13 +11,28 @@ int countEven(int arr[], int size)
             count++;
         }
     }
+
     return count;
 }
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4, 5, 6};
-    std::cout << countEven(arr, 6);
+    int size;
+
+    std::cout << "Скiльки чисел будете вводити? ";
+    std::cin >> size;
+
+    int arr[size];
+
+    std::cout << "Введiть числа:\n";
+
+    for (int i = 0; i < size; i++)
+    {
+        std::cin >> arr[i];
+    }
+
+    std::cout << "Кiлькiсть парних чисел: ";
+    std::cout << countEven(arr, size);
 
     return 0;
 }
