@@ -32,7 +32,7 @@ int main()
     }
 
     std::cout << "Кiлькiсть парних чисел: ";
-    std::cout << countEven(arr, size);
+    std::cout << countEven(arr, size) << std::endl;
 
     return 0;
 }

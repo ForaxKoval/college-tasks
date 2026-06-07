@@ -7,13 +7,14 @@ void reverseString(std::string text)
     {
         std::cout << text[i];
     }
+    std::cout << std::endl;
 }
 
 int main()
 {
     std::string text;
 
-    std::cout << "Введiть рядок: ";
+    std::cout << "Введiть рядок: " << std::endl;
     std::getline(std::cin, text);
 
     reverseString(text);

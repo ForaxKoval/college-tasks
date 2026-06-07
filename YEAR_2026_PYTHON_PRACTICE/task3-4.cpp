@@ -28,7 +28,7 @@ int main()
 {
     std::string text;
     std::getline(std::cin, text);
-    std::cout << countElements(text);
+    std::cout << countElements(text) << std::endl;
 
     return 0;
 }

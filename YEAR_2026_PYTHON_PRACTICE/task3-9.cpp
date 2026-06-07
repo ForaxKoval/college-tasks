@@ -34,9 +34,11 @@ int main(){
     int choice;
     double summa;
 
+    do{
     std::cout << "1 - Znyattya koshtiv\n";
     std::cout << "2 - Popovnennya rahunku\n";
     std::cout << "3 - Perevirka balansu\n";
+    std::cout << "0 - Vyhid\n";
     std::cout << "Obery operatsiyu: ";
     std::cin >> choice;
 
@@ -58,8 +60,9 @@ int main(){
     }
     else
     {
-        std::cout << "Nevirna komanda!";
-    }
+        std::cout << "Nevirna komanda!" << std::endl;
+    } 
+}while (choice != 0);
 
     return 0;
 }

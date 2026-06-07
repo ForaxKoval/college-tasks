@@ -19,7 +19,7 @@ int main()
 
         if (checkPassword(password))
         {
-            std::cout << "Dostup dozvoleno!";
+            std::cout << "Dostup dozvoleno!" << std::endl;
             return 0;
         }
             attempts++;
@@ -27,7 +27,7 @@ int main()
                   << attempts << "/" << maxAttempts << std::endl;
     }
 
-    std::cout << "Dostup zablokovano!";
+    std::cout << "Dostup zablokovano!" << std::endl;
 
     return 0;
 }
