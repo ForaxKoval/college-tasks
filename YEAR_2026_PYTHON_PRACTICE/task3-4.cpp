@@ -3,12 +3,22 @@
 
 int countElements(std::string text)
 {
-    int count = 1;
+    int count = 0;
+    bool inElement = false;
+
     for (char c : text)
     {
-        if (c == ':')
+        if (c != ':')
         {
-            count++;
+            if (!inElement)
+            {
+                count++;
+                inElement = true;
+            }
+        }
+        else
+        {
+            inElement = false;
         }
     }
     return count;

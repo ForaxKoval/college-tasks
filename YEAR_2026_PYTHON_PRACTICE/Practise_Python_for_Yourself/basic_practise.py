@@ -360,3 +360,7 @@ print(sys.path) # Ніфіга сібє, видає шлях до файлу
 print(platform.system()) # Linux
 
 import random # Можна зроюить рулєточку
+num = 1
+num2 = num
+num = 2
+print(num2)
